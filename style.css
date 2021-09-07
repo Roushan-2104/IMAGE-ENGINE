@@ -54,6 +54,10 @@ h1 {
   display: inline-block;
   margin: 0;
 }
+#img:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
 img {
   margin: 30px;
   border: 2px solid white;
@@ -62,25 +66,19 @@ img {
   vertical-align: middle;
   display: inline-block;
 }
-img:hover {
-  opacity: 0.7;
-  cursor: pointer;
-}
-
-#download {
+.download {
   margin-top: 30px;
   margin-left: -5%;
   position: absolute;
 }
-#download:hover {
-  opacity: 0.6;
-  cursor: pointer;
+.download:hover {
+  color: aqua;
 }
 a {
   color: white;
 }
 @media (max-width: 400px) {
-  #download {
+  .download {
     display: none;
   }
   img {
