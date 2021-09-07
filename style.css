@@ -59,6 +59,7 @@ img {
   border: 2px solid white;
   position: relative;
   margin-top: 0;
+  vertical-align: middle;
   display: inline-block;
 }
 img:hover {
