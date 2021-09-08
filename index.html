@@ -10,11 +10,17 @@
 </head>
 <body>
     <div id="head">
-        <h1>PHOTOS API</h1>
-        <input type="text" name="search" id="search" placeholder="SEARCH HERE...."><br>
-        <button id="search-btn">SEARCH</button>
+        <h1 id="top">PHOTOS API</h1>
+        <form action="javascript:void(0);">
+            <input type="text" name="search" id="search" placeholder="SEARCH HERE...." required><br>
+            <button id="search-btn">SEARCH</button>
+        </form>
     </div>
-    <div id="photos"></div>
+    <div id="row"><div id = "column"></div><div id="column1"></div><div id="column2"></div></div>
+    <footer>
+        <p>Copyright &copy; 2021 Photos API</p>
+        <p>ALL IMAGES ARE FROM unsplash.com</p>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
