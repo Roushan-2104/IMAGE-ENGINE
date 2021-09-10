@@ -1,8 +1,7 @@
-var image = document.getElementById("column");
-let area = document.getElementById("row");
-var image2 = document.getElementById("column1");
-var image3 = document.getElementById("column2");
-let search_btn = document.getElementById("search-btn").addEventListener("click", (e)=> {
+const image = document.getElementById("column");
+const image2 = document.getElementById("column1");
+const image3 = document.getElementById("column2");
+const search_btn = document.getElementById("search-btn").addEventListener("click", (e)=> {
     e.preventDefault();
     let search = document.getElementById("search").value;
     image.innerHTML = "<em>LOADING....</EM>"
